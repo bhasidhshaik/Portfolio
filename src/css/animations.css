@@ -1,0 +1,118 @@
+@keyframes fadeUp {
+  0% {
+
+    transform: translateY(30px);
+  }
+  100% {
+
+    transform: translateY(0);
+  }
+}
+@keyframes fadeFirstUp {
+  0% {
+opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeftUp {
+  0% {
+
+    transform: translateY(20px) translateX(30px); /* Move the element down-right initially */
+  }
+  100% {
+
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes fadeRightUp {
+  0% {
+
+    transform: translateY(40px) translateX(-60px); /* Move the element down-right initially */
+  }
+  100% {
+
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeFirstLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRight {
+  0% {
+    transform: translateX(40px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes fadeFirstRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+  .landing-page-bottom-container1{
+
+    transform: translateX(30px);
+    animation: fadeFirstRight 1s ease both;
+}
+.landing-page-bottom-container111{
+
+    transform: translateX(-30px);
+      animation: fadeFirstLeft 1s ease both;
+
+  }
+  
+  .fullstackdevtext , .landing-page-main-text-box p , .landing-page-main-profile-box{
+
+    transform: translateY(30px);
+    animation: fadeFirstUp 1s ease both;
+  }
+  .card{
+
+    animation: fadeRight 1s ease both;
+    animation-timeline: view();
+  }
+
+ .skill-section-container-left , .skill-section-container-right{
+  animation: fadeRightUp 1s ease both;
+  animation-timeline: view();
+ }
+
+ .page04 .who-am-i .who-am-i-left ,  .page04 .who-am-i .who-am-i-right{
+  animation: fadeUp 1s ease both;
+  animation-timeline: view();
+ }
+
