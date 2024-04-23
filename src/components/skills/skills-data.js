@@ -2,6 +2,7 @@ const techStack = [
     {
       type: "Frontend",
       technologies: [
+        { name: "Next JS", imagePath: `<i class="devicon-nextjs-original-wordmark colored"></i>` },
         { name: "React JS", imagePath: `<i class="devicon-react-original-wordmark colored"></i>` },
         { name: "JavaScript", imagePath: '<i class="devicon-javascript-plain colored"></i>' },
         { name: "Tailwind CSS", imagePath: '<i class="devicon-tailwindcss-plain-wordmark colored"></i>' },
