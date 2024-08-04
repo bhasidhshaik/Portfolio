@@ -54,7 +54,7 @@ function ContactMe() {
           </div>
           <div className="form-row2">
             <textarea name="message" id="contact-messege" cols="30" rows="10" placeholder="Enter your message here!"
-              required minLength="20"></textarea>
+              required minLength="5"></textarea>
           </div>
           <div className="form-submit-btn">
             <button type="submit">Send Message! <span>

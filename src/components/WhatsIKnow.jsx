@@ -1,5 +1,6 @@
 import React from 'react'
 import Skills from './skills/Skills'
+import Resume from "../assets/pdf/shaik-bhasidh.pdf"
 function WhatsIKnow() {
   return (
     
@@ -23,7 +24,7 @@ function WhatsIKnow() {
               </p>
             </div>
             <div className="left-skill-cv">
-              <a href="/pdf/resume.pdf" download target="_blank">
+              <a href={Resume} download="Shaik Bhasidh" target="_blank">
                 <button className="download-cv-button">
                   <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0h24v24H0z" fill="none"></path>

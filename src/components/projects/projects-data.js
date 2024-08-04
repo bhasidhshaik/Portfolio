@@ -1,8 +1,15 @@
 import RecipeFinder from "../../assets/recipe-finder.png"
 import Portfolio from "../../assets/portfolio.png"
-import LibraryManagement from "../../assets/library_management_system.jpeg"
+import SocialMedia from "../../assets/social-media.png"
 import CollegeSite from "../../assets/college-site.png"
 const projects = [
+  {
+    title: "Social Media",
+    technologies: ["ReactJS", "ExpressJS", "MongoDB", "NodeJS"],
+    githubLink: "https://github.com/bhasidhshaik/Social-Media-Clone",
+    liveLink: "https://connectsphere-bs.onrender.com/", 
+    imgUrl: SocialMedia,
+  },
     {
         title: "Recipe Finder",
         technologies: ["ReactJS", "ExpressJS", "PostgreSQL", "NodeJS"],
@@ -10,14 +17,6 @@ const projects = [
         liveLink: "https://indian-food-lake.vercel.app/", 
         imgUrl: RecipeFinder,
       },
-    {
-      title: "Library Management",
-      technologies: ["NodeJS", "ExpressJS", "MongoDB" , "EJS"],
-      githubLink: "https://github.com/bhasidhshaik/library-management-ru",
-      liveLink: "#", 
-      imgUrl: LibraryManagement,
-    },
-    
     {
       title: "RUCE College Website",
       technologies: ["JavaScript", "PHP", "HTML & CSS"],
