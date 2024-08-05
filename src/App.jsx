@@ -17,20 +17,22 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [navOpen, setNavOpen] = useState(false);
 
-  useEffect(() => {
-    // Set up event listener for window load
-    const handleLoad = () => {
-      setLoading(false);
-    };
+  // useEffect(() => {
+  //   // Set up event listener for window load
+  //   const handleLoad = () => {
+  //     console.log("Loaded");
+      
+  //     setLoading(false);
+  //   };
 
-    // Attach the event listener
-    window.addEventListener('load', handleLoad);
+  //   // Attach the event listener
+  //   window.addEventListener('load', handleLoad);
 
-    // Clean up the event listener
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
-  }, []);
+  //   // Clean up the event listener
+  //   return () => {
+  //     window.removeEventListener('load', handleLoad);
+  //   };
+  // }, []);
   function handleNavClick() {
     setNavOpen(!navOpen);
   }
@@ -56,11 +58,11 @@ function App() {
         <About />
         <ContactMe />
       </div>
-      {loading && (
+      {/* {loading && (
         <div className="loader-overlay">
           <Loader />
         </div>
-      )}
+      )} */}
     </>
   );
 }
