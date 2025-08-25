@@ -1,6 +1,6 @@
 import React from 'react'
 import Skills from './skills/Skills'
-import Resume from "../assets/pdf/shaik-bhasidh.pdf"
+import Resume from "../assets/pdf/Shaik_Bhasidh_SDE.pdf"
 function WhatsIKnow() {
   return (
     

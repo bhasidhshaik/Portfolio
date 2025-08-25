@@ -86,33 +86,35 @@ opacity: 1;
   .landing-page-bottom-container1{
 
     transform: translateX(30px);
-    animation: fadeFirstRight 1s ease both;
+    animation: fadeFirstRight 2s ease both;
 }
 .landing-page-bottom-container111{
 
     transform: translateX(-30px);
-      animation: fadeFirstLeft 1s ease both;
+      animation: fadeFirstLeft 2s ease both;
 
   }
   
   .fullstackdevtext , .landing-page-main-text-box p , .landing-page-main-profile-box{
 
     transform: translateY(30px);
-    animation: fadeFirstUp 1s ease both;
+    animation: fadeFirstUp 2s ease both;
   }
   .card{
 
-    animation: fadeRight 1s ease both;
+    animation: fadeRight 2s ease both;
     animation-timeline: view();
   }
 
  .skill-section-container-left , .skill-section-container-right{
-  animation: fadeRightUp 1s ease both;
+  animation: fadeRightUp 2s ease both;
   animation-timeline: view();
  }
 
  .page04 .who-am-i .who-am-i-left ,  .page04 .who-am-i .who-am-i-right{
-  animation: fadeUp 1s ease both;
+  animation: fadeUp 2s ease both;
   animation-timeline: view();
  }
+
+
 

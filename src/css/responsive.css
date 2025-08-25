@@ -136,6 +136,9 @@
   }
 
   @media only screen and (max-width: 768px){
+     .page04 .who-am-i .who-am-i-left ,  .page04 .who-am-i .who-am-i-right ,  .skill-section-container-left , .skill-section-container-right ,   .card ,   .fullstackdevtext , .landing-page-main-text-box p , .landing-page-main-profile-box , .landing-page-bottom-container111 , .landing-page-bottom-container1{
+  animation: none;
+ }
     body{
         overflow-x: hidden !important;
     }
