@@ -86,19 +86,19 @@ opacity: 1;
   .landing-page-bottom-container1{
 
     transform: translateX(30px);
-    animation: fadeFirstRight 2s ease both;
+    animation: fadeFirstRight 1s ease both;
 }
 .landing-page-bottom-container111{
 
     transform: translateX(-30px);
-      animation: fadeFirstLeft 2s ease both;
+      animation: fadeFirstLeft 1s ease both;
 
   }
   
   .fullstackdevtext , .landing-page-main-text-box p , .landing-page-main-profile-box{
 
     transform: translateY(30px);
-    animation: fadeFirstUp 2s ease both;
+    animation: fadeFirstUp 1s ease both;
   }
   .card{
 
